@@ -39,5 +39,11 @@ public class StringHelper {
 		
 	}
 	
+	public static void main(String args[]){
+		StringHelper stringHelper=new StringHelper();
+		String result=stringHelper.truncateInFirst2Position("AAAwe");
+		System.out.println("Result Is : "+result);
+	}
+	
 
 }
